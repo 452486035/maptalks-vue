@@ -1,0 +1,72 @@
+.maptalks-msgBox {
+    /*width: 200px !important;*/
+    background: rgba($color: (#fff), $alpha: .8) !important;
+    border: none !important;
+    border-radius: 3px !important;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+.maptalks-msgContent {
+    min-width: 100px !important;
+    word-break: break-all;
+}
+
+.maptalks-close {
+    top: 2px !important;
+    right: 1px !important
+}
+
+.poi_tip {
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .5);
+    padding-left: 5px;
+}
+
+.poi_name {
+    line-height: 38px;
+    display: inline-block;
+    padding: 0px 20px 0px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #3c3d3f;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.poi_tip_foot {
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-left: -14px;
+    border: 7px solid transparent;
+    border-right: 8px solid rgba(255, 255, 255, 1);
+}
+
+._closeBtn {
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 4px;
+    font-size: 20px;
+    color: #3c3d3f;
+    cursor: pointer;
+    text-shadow: 0 5px 8px 0 rgba(0, 0, 0, 1);
+}
+
+.poi_large_theme {
+    width: 200px;
+    height: 120px;
+    background: rgba($color: (#fff), $alpha: 0.8);
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba($color: (#000), $alpha: 0.29);
+}
